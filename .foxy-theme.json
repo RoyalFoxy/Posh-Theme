@@ -14,15 +14,6 @@
           "type": "shell"
         },
         {
-          "background": "#333533",
-          "foreground": "#F5CB5C",
-          "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b4 ",
-          "style": "diamond",
-          "template": "\uf292",
-          "type": "root"
-        },
-        {
           "background": "#242423",
           "foreground": "#CFDBD5",
           "properties": {
@@ -274,6 +265,15 @@
           "style": "diamond",
           "template": "{{.Icon}}",
           "type": "os"
+        },
+        {
+          "background": "#333533",
+          "foreground": "#F5CB5C",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4 ",
+          "style": "diamond",
+          "template": "\uf292",
+          "type": "root"
         },
         {
           "foreground": "#e0f8ff",
