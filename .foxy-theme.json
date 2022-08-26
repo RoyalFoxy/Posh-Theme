@@ -6,7 +6,7 @@
       "segments": [
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "leading_diamond": "\u2554\ue0b6",
           "trailing_diamond": "\ue0b4 ",
           "style": "diamond",
@@ -15,7 +15,7 @@
         },
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "properties": {
             "folder_icon": " \uf07b ",
             "home_icon": "\uf7dd",
@@ -29,7 +29,7 @@
         },
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "properties": {
             "style": "roundrock",
             "threshold": 0
@@ -49,7 +49,7 @@
       "segments": [
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "properties": {
             "time_format": "15:04"
           },
@@ -238,7 +238,7 @@
       "segments": [
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "leading_diamond": "\u2551\ue0b6",
           "trailing_diamond": "\ue0b4 ",
           "style": "diamond",
@@ -254,7 +254,7 @@
       "segments": [
         {
           "background": "#242423",
-          "foreground": "#CFDBD5",
+          "foreground": "#FFFFFF",
           "properties": {
             "linux": "\ue712",
             "macos": "\ue711",
