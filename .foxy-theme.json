@@ -258,7 +258,6 @@
         },
         {
           "foreground": "#F5CB5C",
-          "leading_diamond": " ",
           "trailing_diamond": " ",
           "style": "diamond",
           "template": "\uf292",
