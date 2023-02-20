@@ -22,63 +22,16 @@
           "type": "path"
         },
         {
+          "type": "exit",
+          "style": "plain",
           "foreground": "#cdd6f4",
-          "properties": {
-            "style": "roundrock",
-            "threshold": 0
-          },
-          "style": "plain",
-          "template": "\ue389 {{ .FormattedMs }}",
-          "type": "executiontime"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
-      "alignment": "left",
-      "newline": true,
-      "segments": [
-        {
-          "foreground": "#cdd6f4",
-          "properties": {
-            "time_format": "15:04"
-          },
-          "style": "plain",
-          "template": "\uf5ef {{ .CurrentDate | date .Format }} ",
-          "type": "time"
-        },
-        {
           "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#f9e2af{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f5c2e7{{ end }}",
-            "{{ if gt .Ahead 0 }}#585b70{{ end }}",
-            "{{ if gt .Behind 0 }}#585b70{{ end }}"
+            "{{ if gt .Code 0 }}#f38ba8{{ end }}"
           ],
-          "foreground": "#a6e3a1",
+          "template": "{{ if gt .Code 0 }}{{ .Code }}{{ end }}",
           "properties": {
-            "branch_icon": "\ue725 ",
-            "fetch_status": true,
-            "fetch_upstream_icon": true
-          },
-          "style": "plain",
-          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#f38ba8> \uf046 {{ .Staging.String }}</>{{ end }} ",
-          "type": "git"
-        },
-        {
-          "foreground_templates": [
-            "{{if eq \"Charging\" .State.String}}#94e2d5{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#fab387{{end}}",
-            "{{if eq \"Full\" .State.String}}#a6e3a1{{end}}"
-          ],
-          "foreground": "#f38ba8",
-          "properties": {
-            "charged_icon": "\uf58e ",
-            "charging_icon": "\uf1e6 ",
-            "discharging_icon": "\ue234 "
-          },
-          "style": "plain",
-          "template": "{{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}%",
-          "type": "battery"
+            "always_enabled": true
+          }
         }
       ],
       "type": "prompt"
@@ -91,7 +44,7 @@
           "type": "project",
           "style": "plain",
           "foreground": "#b4befe",
-          "template": "{{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}\uf487 {{.Version}}{{ end }} {{ if .Name }}{{ .Name }}{{ end }}{{ end }} "
+          "template": "{{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}\uf487 {{.Version}} {{ end }}{{ if .Name }}{{ .Name }}{{ end }}{{ end }} "
         },
         {
           "foreground": "#f74c00",
@@ -130,6 +83,30 @@
           "properties": {
             "display_mode": "context"
           }
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#f9e2af{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f5c2e7{{ end }}",
+            "{{ if gt .Ahead 0 }}#585b70{{ end }}",
+            "{{ if gt .Behind 0 }}#585b70{{ end }}"
+          ],
+          "foreground": "#a6e3a1",
+          "properties": {
+            "branch_icon": "\ue725 ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "plain",
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#f38ba8> \uf046 {{ .Staging.String }}</>{{ end }} ",
+          "type": "git"
         }
       ],
       "type": "prompt"
