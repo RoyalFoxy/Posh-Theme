@@ -1,0 +1,1385 @@
+
+[1mVersion:[0m 12.2.2
+
+[1mSegments:[0m
+
+ConsoleTitle(false) -   0 ms - 
+shell(true)      -   0 ms - [38;2;137;180;250m[1m[22m fish [0m
+path(true)       -   2 ms - [38;2;250;179;135m /Posh-Theme/elixir [0m
+exit(false)      -   0 ms - 
+project(false)   -   0 ms - 
+angular(false)   -   0 ms - 
+aws(false)       -   0 ms - 
+az(false)        -   0 ms - 
+azfunc(false)    -   0 ms - 
+cds(false)       -   0 ms - 
+cf(false)        -   0 ms - 
+cftarget(false)  -  24 ms - 
+cmake(false)     -   0 ms - 
+crystal(false)   -   0 ms - 
+dart(false)      -   0 ms - 
+deno(false)      -   0 ms - 
+dotnet(false)    -   0 ms - 
+elixir(false)    -   0 ms - 
+flutter(false)   -   0 ms - 
+gcp(false)       -   0 ms - 
+go(false)        -   0 ms - 
+haskell(false)   -   0 ms - 
+java(false)      -   0 ms - 
+julia(false)     -   0 ms - 
+kotlin(false)    -   0 ms - 
+kubectl(false)   -   0 ms - 
+lua(false)       -   0 ms - 
+node(false)      -   0 ms - 
+npm(false)       -   0 ms - 
+nx(false)        -   0 ms - 
+perl(false)      -   0 ms - 
+php(false)       -   0 ms - 
+python(false)    -   0 ms - 
+r(false)         -   0 ms - 
+ruby(false)      -   0 ms - 
+rust(false)      -   0 ms - 
+swift(false)     -   0 ms - 
+terraform(false) -  14 ms - 
+vala(false)      -   0 ms - 
+xmake(false)     -   0 ms - 
+git(true)        -   2 ms - [38;2;249;226;175m  main≡  ?24 ~1 -1 [0m
+os(true)         -   0 ms - [38;2;203;166;247m [0m
+root(false)      -   0 ms - 
+exit(true)       -   0 ms - [38;2;166;227;161mﬀ [0m
+
+[1mRun duration:[0m 47.715699ms
+
+[1mCache path:[0m ~/.cache/oh-my-posh
+
+[1mConfig path:[0m ~/Posh-Theme/.foxy-theme-simpler.json
+
+[1mLogs:[0m
+
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 30.047µs, args: XDG_CACHE_HOME
+2023/02/21 22:05:21 CachePath duration: 40.387µs, args: 
+2023/02/21 22:05:21 debug: Getenv
+~/Posh-Theme/.foxy-theme-simpler.json
+2023/02/21 22:05:21 Getenv duration: 1.122µs, args: POSH_THEME
+2023/02/21 22:05:21 resolveConfigPath duration: 2.755µs, args: 
+2023/02/21 22:05:21 Init duration: 736.759µs, args: 
+2023/02/21 22:05:21 Flags duration: 31ns, args: 
+2023/02/21 22:05:21 config.loadConfig duration: 558.931µs, args: 
+2023/02/21 22:05:21 Flags duration: 10ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 671ns, args: OMP_CACHE_DISABLED
+2023/02/21 22:05:21 Root duration: 161ns, args: 
+2023/02/21 22:05:21 debug: Shell
+process name: fish
+2023/02/21 22:05:21 Shell duration: 429.917µs, args: 
+2023/02/21 22:05:21 ErrorCode duration: 30ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+Ubuntu
+2023/02/21 22:05:21 Getenv duration: 491ns, args: WSL_DISTRO_NAME
+2023/02/21 22:05:21 IsWsl duration: 1.433µs, args: 
+2023/02/21 22:05:21 GOOS duration: 50ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 3.136µs, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 10ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: User
+foxy
+2023/02/21 22:05:21 User duration: 351ns, args: 
+2023/02/21 22:05:21 debug: Host
+7950x
+2023/02/21 22:05:21 Host duration: 951ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 451.407µs, args: 
+2023/02/21 22:05:21 Flags duration: 30ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 521ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 Shell duration: 40ns, args: 
+2023/02/21 22:05:21 Flags duration: 20ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 30ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 60ns, args: 
+2023/02/21 22:05:21 Shell duration: 50ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 591ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 271ns, args: 
+2023/02/21 22:05:21 Shell duration: 30ns, args: 
+2023/02/21 22:05:21 Shell duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 30ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 40ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 10ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+Ubuntu
+2023/02/21 22:05:21 Getenv duration: 391ns, args: WSL_DISTRO_NAME
+2023/02/21 22:05:21 IsWsl duration: 3.367µs, args: 
+2023/02/21 22:05:21 debug: RunCommand
+/Posh-Theme/elixir
+2023/02/21 22:05:21 RunCommand duration: 1.52606ms, args: wslpath -m /Posh-Theme/elixir
+2023/02/21 22:05:21 StackCount duration: 40ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 682ns, args: 
+2023/02/21 22:05:21 DirIsWritable duration: 4.88µs, args: ~/Posh-Theme/elixir
+2023/02/21 22:05:21 TemplateCache duration: 70ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 160ns, args: 
+2023/02/21 22:05:21 Shell duration: 80ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 581ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 ErrorCode duration: 30ns, args: 
+2023/02/21 22:05:21 ErrorCode duration: 20ns, args: 
+2023/02/21 22:05:21 Flags duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 4.849µs, args: package.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 451ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 3.236µs, args: Cargo.toml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.384µs, args: pyproject.toml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.144µs, args: composer.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 30.729µs, args: *.nuspec
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 GOOS duration: 10ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 8.746µs, args: angular.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 391ns, args: 
+2023/02/21 22:05:21 GOOS duration: 10ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 601ns, args: AWS_VAULT
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 691ns, args: AWS_PROFILE
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 411ns, args: AWS_REGION
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 501ns, args: AWS_DEFAULT_REGION
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 441ns, args: AWS_CONFIG_FILE
+2023/02/21 22:05:21 error: FileContent
+open ~/.aws/config: no such file or directory
+2023/02/21 22:05:21 FileContent duration: 533.096µs, args: ~/.aws/config
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 651ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 631ns, args: AZURE_CONFIG_DIR
+2023/02/21 22:05:21 PathSeparator duration: 30ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 312.033µs, args: azureProfile.json
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 2.956µs, args: azureProfile.json
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 752ns, args: POSH_AZURE_SUBSCRIPTION
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 531ns, args: 
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 331ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.731µs, args: host.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.585µs, args: local.settings.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 320ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 4.529µs, args: function.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 331ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.114µs, args: package.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 341ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.435µs, args: .cdsrc.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.244µs, args: .cdsrc-private.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 290ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 13.225µs, args: *.cds
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 702ns, args: 
+2023/02/21 22:05:21 GOOS duration: 40ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 531ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 561ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 3.577µs, args: manifest.yml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.165µs, args: mta.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 662ns, args: 
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 debug: CommandPath
+/home/linuxbrew/.linuxbrew/bin/cf
+2023/02/21 22:05:21 CommandPath duration: 11.963µs, args: cf
+2023/02/21 22:05:21 HasCommand duration: 14.608µs, args: cf
+2023/02/21 22:05:21 error: RunCommand
+cmd.Run() failed
+2023/02/21 22:05:21 debug: RunCommand
+Not logged in. Use 'cf login' or 'cf login --sso' to log in.
+
+2023/02/21 22:05:21 RunCommand duration: 24.378085ms, args: cf target
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 661ns, args: 
+2023/02/21 22:05:21 GOOS duration: 40ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 461ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 270ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 20.539µs, args: *.cmake
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 380ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.765µs, args: CMakeLists.txt
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 350ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 240ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.643µs, args: *.cr
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.485µs, args: shard.yml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 441ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 371ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 240ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.961µs, args: *.dart
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.545µs, args: pubspec.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 271ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.214µs, args: pubspec.yml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.064µs, args: pubspec.lock
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.573µs, args: .dart_tool
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 360ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 281ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 10.2µs, args: *.js
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.39µs, args: *.ts
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 30ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.401µs, args: deno.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 340ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.151µs, args: *.cs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.541µs, args: *.csx
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.33µs, args: *.vb
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.21µs, args: *.sln
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 12.744µs, args: *.slnf
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 360ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.122µs, args: *.csproj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 321ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.671µs, args: *.vbproj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 240ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 4.869µs, args: *.fs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.12µs, args: *.fsx
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 260ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.44µs, args: *.fsproj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.064µs, args: global.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 761ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 321ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 320ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.59µs, args: *.dart
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 1.974µs, args: pubspec.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 30ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 3.787µs, args: pubspec.yml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 1.934µs, args: pubspec.lock
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 691ns, args: .dart_tool
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 451ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 711ns, args: CLOUDSDK_CONFIG
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 error: FileContent
+open ~/.config/gcloud/active_config: no such file or directory
+2023/02/21 22:05:21 FileContent duration: 2.885µs, args: ~/.config/gcloud/active_config
+2023/02/21 22:05:21 error: Gcp.Enabled()
+NO ACTIVE CONFIG FOUND
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.571µs, args: *.go
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.955µs, args: go.mod
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 361ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 261ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 360ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 9.277µs, args: *.hs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.4µs, args: *.lhs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.645µs, args: stack.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.495µs, args: package.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 331ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.45µs, args: *.cabal
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.635µs, args: cabal.project
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 471ns, args: JAVA_HOME
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.074µs, args: pom.xml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.325µs, args: build.gradle.kts
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.285µs, args: build.sbt
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 380ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 30ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 4.228µs, args: .java-version
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.324µs, args: .deps.edn
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 380ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.344µs, args: project.clj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 391ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.274µs, args: build.boot
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 370ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.7µs, args: *.java
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 370ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.011µs, args: *.class
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.32µs, args: *.gradle
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.05µs, args: *.jar
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.049µs, args: *.clj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 251ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.11µs, args: *.cljc
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 361ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.5µs, args: *.jl
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 410ns, args: 
+2023/02/21 22:05:21 GOOS duration: 10ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.12µs, args: *.kt
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 240ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.049µs, args: *.kts
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 330ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.039µs, args: *.ktm
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 421ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 531ns, args: KUBECONFIG
+2023/02/21 22:05:21 error: FileContent
+open ~/.kube/config: no such file or directory
+2023/02/21 22:05:21 FileContent duration: 1.473µs, args: ~/.kube/config
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 450ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 631ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 651ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 40ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 7.404µs, args: *.lua
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 411ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.131µs, args: *.rockspec
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 861ns, args: lua
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 401ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.134µs, args: yarn.lock
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 321ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.274µs, args: package-lock.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.114µs, args: package.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.089µs, args: *.js
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 331ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.01µs, args: *.ts
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.274µs, args: package.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.054µs, args: .nvmrc
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.846µs, args: pnpm-workspace.yaml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 281ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.054µs, args: .pnpmfile.cjs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.124µs, args: .npmrc
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.204µs, args: .vue
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 391ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 1.864µs, args: package.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 1.974µs, args: package-lock.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 441ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 411ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.695µs, args: workspace.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.415µs, args: nx.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 471ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 380ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.304µs, args: .perl-version
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 390ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 7.424µs, args: *.pl
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 421ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.16µs, args: *.pm
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.26µs, args: *.t
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 451ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 350ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.28µs, args: *.php
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.625µs, args: composer.json
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 240ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 3.697µs, args: composer.lock
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 1.994µs, args: .php-version
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 280ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.464µs, args: blade.php
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 421ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 541ns, args: VIRTUAL_ENV
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 321ns, args: CONDA_ENV_PATH
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 350ns, args: CONDA_DEFAULT_ENV
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 380ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.773µs, args: *.py
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 250ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.6µs, args: *.ipynb
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.144µs, args: pyproject.toml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 361ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.431µs, args: venv.bak
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.363µs, args: .venv
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.603µs, args: venv
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.402µs, args: virtualenv
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.392µs, args: env
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.022µs, args: venv-win
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.172µs, args: pyenv-win
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 481ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 340ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 6.312µs, args: *.R
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.54µs, args: *.Rmd
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 511ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.42µs, args: *.Rsx
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.11µs, args: *.Rda
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 4.889µs, args: *.Rd
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 331ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.501µs, args: *.Rproj
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 270ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.485µs, args: .Rproj.user
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 471ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 260ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.04µs, args: *.rb
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 320ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.334µs, args: Rakefile
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.505µs, args: Gemfile
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 390ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 300ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 241ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.601µs, args: *.rs
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 291ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.515µs, args: Cargo.toml
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 311ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 2.334µs, args: Cargo.lock
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 461ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 301ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 21ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.551µs, args: *.swift
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 310ns, args: 
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFiles
+false
+2023/02/21 22:05:21 HasFiles duration: 5.33µs, args: *.SWIFT
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 370ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 381ns, args: 
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 1.102µs, args: ~/Posh-Theme/elixir/.terraform
+2023/02/21 22:05:21 error: CommandPath
+not relevant
+2023/02/21 22:05:21 CommandPath duration: 14.42041ms, args: terraform
+2023/02/21 22:05:21 HasCommand duration: 14.426953ms, args: terraform
+2023/02/21 22:05:21 Flags duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 821ns, args: 
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+Ubuntu
+2023/02/21 22:05:21 Getenv duration: 962ns, args: WSL_DISTRO_NAME
+2023/02/21 22:05:21 IsWsl duration: 1.854µs, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 351ns, args: 
+2023/02/21 22:05:21 debug: RunCommand
+//wsl.localhost/Ubuntu~/Posh-Theme/elixir
+2023/02/21 22:05:21 RunCommand duration: 509.929µs, args: wslpath -m ~/Posh-Theme/elixir
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 debug: CommandPath
+/usr/bin/git
+2023/02/21 22:05:21 CommandPath duration: 19.056µs, args: git
+2023/02/21 22:05:21 HasCommand duration: 20.199µs, args: git
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 441ns, args: 
+2023/02/21 22:05:21 HasParentFilePath duration: 4.008µs, args: .git
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 21ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 21ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 601ns, args: POSH_GIT_STATUS
+2023/02/21 22:05:21 debug: RunCommand
+# branch.oid 9c20bc112369a14292fa5e6113054611536a893a
+# branch.head main
+# branch.upstream origin/main
+# branch.ab +0 -0
+1 .M N... 100644 100644 100644 ad3293d43c5c8d0b51457939f3f98be3ef4c7a3b ad3293d43c5c8d0b51457939f3f98be3ef4c7a3b .foxy-theme-simpler.json
+1 .D N... 100644 100644 000000 395dfbf7d597ae7918586964fe2b6b6477fbb786 395dfbf7d597ae7918586964fe2b6b6477fbb786 .foxy-theme.json
+? .cdsrc.json
+? .cs
+? .ex
+? .exs
+? .foxy-theme-old.json
+? .go
+? .hs
+? .java
+? .jl
+? .js
+? .kt
+? .lua
+? .php
+? .pl
+? .py
+? .rs
+? angular/
+? crystal/
+? dart/
+? deno.js
+? elixir/
+? host.json
+? manifest.yml
+? nx/
+2023/02/21 22:05:21 RunCommand duration: 1.024094ms, args: git -C ~/Posh-Theme --no-optional-locks -c core.quotepath=false -c color.status=false status -unormal --branch --porcelain=2
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 3.927µs, args: ~/Posh-Theme/.git/rebase-merge
+2023/02/21 22:05:21 debug: HasFolder
+false
+2023/02/21 22:05:21 HasFolder duration: 942ns, args: ~/Posh-Theme/.git/rebase-apply
+2023/02/21 22:05:21 PathSeparator duration: 40ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 2.795µs, args: MERGE_MSG
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 1.644µs, args: CHERRY_PICK_HEAD
+2023/02/21 22:05:21 PathSeparator duration: 20ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 1.433µs, args: REVERT_HEAD
+2023/02/21 22:05:21 PathSeparator duration: 10ns, args: 
+2023/02/21 22:05:21 debug: HasFilesInDir
+false
+2023/02/21 22:05:21 HasFilesInDir duration: 1.513µs, args: sequencer/todo
+2023/02/21 22:05:21 TemplateCache duration: 160ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 50ns, args: 
+2023/02/21 22:05:21 Shell duration: 140ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 40ns, args: 
+2023/02/21 22:05:21 Flags duration: 31ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 692ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 21ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 131ns, args: 
+2023/02/21 22:05:21 Shell duration: 50ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 601ns, args: 
+2023/02/21 22:05:21 GOOS duration: 30ns, args: 
+2023/02/21 22:05:21 Root duration: 191ns, args: 
+2023/02/21 22:05:21 debug: Pwd
+~/Posh-Theme/elixir
+2023/02/21 22:05:21 Pwd duration: 1.393µs, args: 
+2023/02/21 22:05:21 GOOS duration: 20ns, args: 
+2023/02/21 22:05:21 ErrorCode duration: 20ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 20ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 50ns, args: 
+2023/02/21 22:05:21 Shell duration: 60ns, args: 
+2023/02/21 22:05:21 TemplateCache duration: 40ns, args: 
+2023/02/21 22:05:21 debug: Getenv
+
+2023/02/21 22:05:21 Getenv duration: 651ns, args: XDG_CACHE_HOME
+2023/02/21 22:05:21 CachePath duration: 6.171µs, args: 
+2023/02/21 22:05:21 Flags duration: 20ns, args: 
