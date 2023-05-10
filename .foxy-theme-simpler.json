@@ -294,6 +294,19 @@
       "type": "prompt"
     },
     {
+      "alignment": "right",
+      "newline": false,
+      "segments": [
+        {
+          "foreground": "#f5c2e7",
+          "style": "plain",
+          "type": "text",
+          "template": " Astolfo uwu"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
       "alignment": "left",
       "newline": true,
       "segments": [
