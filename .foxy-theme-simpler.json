@@ -84,7 +84,7 @@
         {
           "foreground": "#2e5797",
           "style": "plain",
-          "template": " {{ .Org }}/{{ .Space }}",
+          "template": " {{ .Org }}/{{ .Space }} ",
           "type": "cftarget"
         },
         {
