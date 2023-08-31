@@ -3,6 +3,7 @@
   "blocks": [
     {
       "alignment": "left",
+      "newline": false,
       "segments": [
         {
           "foreground": "#89b4fa",
@@ -22,9 +23,7 @@
           "type": "path"
         },
         {
-          "foreground_templates": [
-            "{{ if gt .Code 0 }}#f38ba8{{ end }}"
-          ],
+          "foreground_templates": ["{{ if gt .Code 0 }}#f38ba8{{ end }}"],
           "properties": {
             "always_enabled": false
           },
@@ -42,13 +41,13 @@
         {
           "foreground": "#b4befe",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}{{ if .Version }}<b>{{ .Version }}</b> {{ end }}{{ end }}{{ if .Name }}{{ .Name }} {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Version }}{{ if .Version }}<b>{{ .Version }}</b> {{ end }}{{ end }}{{ if .Name }}{{ .Name }} {{ end }}{{ end }}",
           "type": "project"
         },
         {
           "foreground": "#dd0031",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"cannot get version\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "angular"
         },
         {
@@ -66,19 +65,19 @@
         {
           "foreground": "#ffbf00",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "azfunc"
         },
         {
           "foreground": "#0092d1",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "cds"
         },
         {
           "foreground": "#2e5797",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "cf"
         },
         {
@@ -90,79 +89,79 @@
         {
           "foreground": "#cc1010",
           "style": "plain",
-          "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "  {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "cmake"
         },
         {
           "foreground": "#010101",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "crystal"
         },
         {
           "foreground": "#00d2b8",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "dart"
         },
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "ﯤ {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "ﯤ {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "deno"
         },
         {
           "foreground": "#1072b8",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "dotnet"
         },
         {
           "foreground": "#674078",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "elixir"
         },
         {
           "foreground": "#16b9fd",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "flutter"
         },
         {
           "foreground": "#ffce45",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{.Project}} :: {{.Account}}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{.Project}} :: {{.Account}}{{ end }}",
           "type": "gcp"
         },
         {
           "foreground": "#69d7e4",
           "style": "plain",
-          "template": "ﳑ {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "ﳑ {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "go"
         },
         {
           "foreground": "#5e5086",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "haskell"
         },
         {
           "foreground": "#f34336",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "java"
         },
         {
           "foreground": "#9259a3",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "julia"
         },
         {
           "foreground": "#ff8a00",
           "style": "plain",
-          "template": "洞{{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "洞 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "kotlin"
         },
         {
@@ -177,7 +176,7 @@
         {
           "foreground": "#02027d",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "lua"
         },
         {
@@ -188,31 +187,31 @@
             "yarn_icon": "<#2c8ebb></> "
           },
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }}{{ end }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }}{{ end }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "node"
         },
         {
           "foreground": "#cb3837",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "npm"
         },
         {
           "foreground": "#002f56",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"cannot get version\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "nx"
         },
         {
           "foreground": "#3a3c5b",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "perl"
         },
         {
           "foreground": "#777bb3",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "php"
         },
         {
@@ -221,31 +220,31 @@
             "display_mode": "context"
           },
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "python"
         },
         {
           "foreground": "#2369bd",
           "style": "plain",
-          "template": "R {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "R {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "r"
         },
         {
           "foreground": "#ab1401",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "ruby"
         },
         {
           "foreground": "#f74c00",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "rust"
         },
         {
           "foreground": "#f36537",
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "swift"
         },
         {
@@ -257,13 +256,13 @@
         {
           "foreground": "#6b5c8e",
           "style": "plain",
-          "template": "V {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": "V {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "vala"
         },
         {
           "foreground": "#42b983",
           "style": "plain",
-          "template": " make {{ if .Error }}{{ .Error }}{{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " make {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "type": "xmake"
         }
       ],
@@ -300,8 +299,8 @@
         {
           "foreground": "#f5c2e7",
           "style": "plain",
-          "type": "text",
-          "template": " Astolfo uwu"
+          "template": " Astolfo uwu",
+          "type": "text"
         }
       ],
       "type": "prompt"
@@ -329,9 +328,7 @@
         },
         {
           "foreground": "#a6e3a1",
-          "foreground_templates": [
-            "{{ if gt .Code 0 }}#f38ba8{{ end }}"
-          ],
+          "foreground_templates": ["{{ if gt .Code 0 }}#f38ba8{{ end }}"],
           "properties": {
             "always_enabled": true
           },
@@ -346,9 +343,7 @@
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#a6e3a1",
-    "foreground_templates": [
-      "{{ if gt .Code 0 }}#f38ba8{{ end }}"
-    ],
+    "foreground_templates": ["{{ if gt .Code 0 }}#f38ba8{{ end }}"],
     "template": "ﬀ "
   },
   "version": 2
