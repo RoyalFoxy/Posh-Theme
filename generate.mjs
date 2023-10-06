@@ -104,6 +104,17 @@ const blocks = [
   {
     segments: [
       {
+        foreground: "$PINK;",
+        type: "text",
+        template: " Astolfo uwu",
+      },
+    ],
+    alignment: "right",
+    newline: false,
+  },
+  {
+    segments: [
+      {
         foreground: "$LAVENDER;",
         template:
           ' {{ if .Error }}{{ if eq .Error "NO VERSION" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Version }}{{ if .Version }}<b>{{ .Version }}</b> {{ end }}{{ end }}{{ if .Name }}{{ .Name }} {{ end }}{{ end }}',
@@ -326,13 +337,11 @@ const blocks = [
   {
     segments: [
       {
-        foreground: "$PINK;",
-        type: "text",
-        template: " Astolfo uwu",
-      },
+        foreground: "$GREEN;",
+        template: "{{ if .SSHSession }}\ueba9 {{ end }}\uf007 {{ .UserName }} \uf109 {{ .HostName }}",
+        type: "session"
+      }
     ],
-    alignment: "right",
-    newline: false,
   },
   {
     segments: [
