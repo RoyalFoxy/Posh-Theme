@@ -15,7 +15,7 @@
           "template": " {{ .Path }} ",
           "properties": {
             "folder_icon": "",
-            "home_icon": "",
+            "home_icon": "",
             "style": "agnoster_full"
           },
           "foreground": "#fab387",
@@ -66,13 +66,7 @@
         },
         {
           "style": "plain",
-          "template": " {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
-          "foreground": "#f79919",
-          "type": "aws"
-        },
-        {
-          "style": "plain",
-          "template": "ﴃ {{ .EnvironmentName }}",
+          "template": " {{ .EnvironmentName }}",
           "foreground": "#0072c6",
           "type": "az"
         },
@@ -120,7 +114,7 @@
         },
         {
           "style": "plain",
-          "template": "ﯤ {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#ffffff",
           "type": "deno"
         },
@@ -150,7 +144,7 @@
         },
         {
           "style": "plain",
-          "template": "ﳑ {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#69d7e4",
           "type": "go"
         },
@@ -174,13 +168,13 @@
         },
         {
           "style": "plain",
-          "template": "洞 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#ff8a00",
           "type": "kotlin"
         },
         {
           "style": "plain",
-          "template": "ﴱ {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+          "template": "󱃾 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
           "properties": {
             "parse_kubeconfig": true
           },
@@ -198,8 +192,8 @@
           "template": " {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }}{{ end }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "properties": {
             "fetch_package_manager": true,
-            "npm_icon": "<#cb3837></> ",
-            "yarn_icon": "<#2c8ebb></> "
+            "npm_icon": "<#cb3837></> ",
+            "yarn_icon": "<#2c8ebb></> "
           },
           "foreground": "#5fa04e",
           "type": "node"
@@ -342,7 +336,7 @@
         },
         {
           "style": "plain",
-          "template": "ﬀ ",
+          "template": " ",
           "properties": {
             "always_enabled": true
           },
@@ -363,7 +357,7 @@
     "foreground_templates": [
       "{{ if gt .Code 0 }}#f38ba8{{ end }}"
     ],
-    "template": "ﬀ "
+    "template": " "
   },
   "version": 2
 }

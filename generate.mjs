@@ -84,7 +84,7 @@ const blocks = [
         foreground: "$PEACH;",
         properties: {
           folder_icon: "",
-          home_icon: "",
+          home_icon: "",
           style: "agnoster_full",
         },
         template: " {{ .Path }} ",
@@ -126,14 +126,15 @@ const blocks = [
           ' {{ if .Error }}{{ if eq .Error "cannot get version" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}',
         type: "angular",
       },
-      {
-        foreground: "$AWS;",
-        template: " {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
-        type: "aws",
-      },
+      // TODO - Wrong Icon
+      // {
+      //   foreground: "$AWS;",
+      //   template: " {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
+      //   type: "aws",
+      // },
       {
         foreground: "$AZURE;",
-        template: "ﴃ {{ .EnvironmentName }}",
+        template: " {{ .EnvironmentName }}",
         type: "az",
       },
       {
@@ -173,7 +174,7 @@ const blocks = [
       },
       {
         foreground: "$DENO;",
-        icon: "ﯤ",
+        icon: "",
         type: "deno",
       },
       {
@@ -199,7 +200,7 @@ const blocks = [
       },
       {
         foreground: "$GO;",
-        icon: "ﳑ",
+        icon: "",
         type: "go",
       },
       {
@@ -219,7 +220,7 @@ const blocks = [
       },
       {
         foreground: "$KOTLIN;",
-        icon: "洞",
+        icon: "",
         type: "kotlin",
       },
       {
@@ -227,7 +228,7 @@ const blocks = [
         properties: {
           parse_kubeconfig: true,
         },
-        template: "ﴱ {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+        template: "󱃾 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
         type: "kubectl",
       },
       {
@@ -239,8 +240,8 @@ const blocks = [
         foreground: "$NODE;",
         properties: {
           fetch_package_manager: true,
-          npm_icon: "<$NPM;></> ",
-          yarn_icon: "<$YARN;></> ",
+          npm_icon: "<$NPM;></> ",
+          yarn_icon: "<$YARN;></> ",
         },
         template:
           ' {{ if .Error }}{{ if eq .Error "NO VERSION" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }}{{ end }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}',
@@ -366,7 +367,7 @@ const blocks = [
         properties: {
           always_enabled: true,
         },
-        template: "ﬀ ",
+        template: " ",
         type: "exit",
       },
     ],
@@ -380,7 +381,7 @@ const theme = {
     background: "transparent",
     foreground: "$GREEN;",
     foreground_templates: ["{{ if gt .Code 0 }}$RED;{{ end }}"],
-    template: "ﬀ ",
+    template: " ",
   },
   version: 2,
 };

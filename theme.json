@@ -14,29 +14,34 @@
       "alignment": "left",
       "segments": [
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "<b>\uf120</b> {{ .Name }} ",
           "foreground": "#89b4fa",
-          "type": "shell"
+          "type": "shell",
+          "style": "plain"
         },
         {
           "properties": {
+            "cache_duration": "none",
             "folder_icon": "\uf07b",
-            "home_icon": "\uf7dd",
+            "home_icon": "\uf015",
             "style": "agnoster_full"
           },
-          "style": "plain",
           "template": "\uf07b {{ .Path }} ",
           "foreground": "#fab387",
-          "type": "path"
+          "type": "path",
+          "style": "plain"
         },
         {
           "properties": {
-            "always_enabled": false
+            "always_enabled": false,
+            "cache_duration": "none"
           },
-          "style": "plain",
           "template": "{{ if gt .Code 0 }}<b>{{ .Code }}</b>{{ end }}",
           "type": "exit",
+          "style": "plain",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#f38ba8{{ end }}"
           ]
@@ -48,10 +53,13 @@
       "alignment": "right",
       "segments": [
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": " Astolfo uwu",
           "foreground": "#f5c2e7",
-          "type": "text"
+          "type": "text",
+          "style": "plain"
         }
       ]
     },
@@ -60,231 +68,324 @@
       "alignment": "left",
       "segments": [
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\uf487 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Version }}{{ if .Version }}<b>{{ .Version }}</b> {{ end }}{{ end }}{{ if .Name }}{{ .Name }} {{ end }}{{ end }}",
           "foreground": "#b4befe",
-          "type": "project"
+          "type": "project",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue753 {{ if .Error }}{{ if eq .Error \"cannot get version\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#dd0031",
-          "type": "angular"
+          "type": "angular",
+          "style": "plain"
         },
         {
-          "style": "plain",
-          "template": "\ue7ad {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
-          "foreground": "#f79919",
-          "type": "aws"
-        },
-        {
-          "style": "plain",
-          "template": "\ufd03 {{ .EnvironmentName }}",
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\uebd8 {{ .EnvironmentName }}",
           "foreground": "#0072c6",
-          "type": "az"
+          "type": "az",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\uf0e7 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#ffbf00",
-          "type": "azfunc"
+          "type": "azfunc",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue311 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#0092d1",
-          "type": "cds"
+          "type": "cds",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\uf40a {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#2e5797",
-          "type": "cf"
+          "type": "cf",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\uf40a {{ .Org }}/{{ .Space }} ",
           "foreground": "#2e5797",
-          "type": "cftarget"
+          "type": "cftarget",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue61e \ue61d {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#cc1010",
-          "type": "cmake"
+          "type": "cmake",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue370 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#010101",
-          "type": "crystal"
+          "type": "crystal",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue798 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#00d2b8",
-          "type": "dart"
+          "type": "dart",
+          "style": "plain"
         },
         {
-          "style": "plain",
-          "template": "\ufbe4 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue7c0 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#ffffff",
-          "type": "deno"
+          "type": "deno",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue77f {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#1072b8",
-          "type": "dotnet"
+          "type": "dotnet",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue62d {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#674078",
-          "type": "elixir"
+          "type": "elixir",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue28e {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#16b9fd",
-          "type": "flutter"
+          "type": "flutter",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue7b2 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{.Project}} :: {{.Account}}{{ end }}",
           "foreground": "#ffce45",
-          "type": "gcp"
+          "type": "gcp",
+          "style": "plain"
         },
         {
-          "style": "plain",
-          "template": "\ufcd1 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue626 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#69d7e4",
-          "type": "go"
+          "type": "go",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue61f {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#5e5086",
-          "type": "haskell"
+          "type": "haskell",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue738 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#f34336",
-          "type": "java"
+          "type": "java",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue624 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#9259a3",
-          "type": "julia"
-        },
-        {
-          "style": "plain",
-          "template": "\ufa05 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
-          "foreground": "#ff8a00",
-          "type": "kotlin"
+          "type": "julia",
+          "style": "plain"
         },
         {
           "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue634 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "foreground": "#ff8a00",
+          "type": "kotlin",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
             "parse_kubeconfig": true
           },
-          "style": "plain",
-          "template": "\ufd31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+          "template": "\udb84\udcfe {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
           "foreground": "#466bb4",
-          "type": "kubectl"
+          "type": "kubectl",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue620 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#02027d",
-          "type": "lua"
+          "type": "lua",
+          "style": "plain"
         },
         {
           "properties": {
+            "cache_duration": "none",
             "fetch_package_manager": true,
-            "npm_icon": "<#cb3837>\ue5fa</> ",
-            "yarn_icon": "<#2c8ebb>\uf61a</> "
+            "npm_icon": "<#cb3837>\ue71e</> ",
+            "yarn_icon": "<#2c8ebb>\ue6a7</> "
           },
-          "style": "plain",
           "template": "\ue718 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }}{{ end }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#5fa04e",
-          "type": "node"
-        },
-        {
-          "style": "plain",
-          "template": "\ue71e {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
-          "foreground": "#cb3837",
-          "type": "npm"
-        },
-        {
-          "style": "plain",
-          "template": "\ue753 {{ if .Error }}{{ if eq .Error \"cannot get version\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
-          "foreground": "#002f56",
-          "type": "nx"
-        },
-        {
-          "style": "plain",
-          "template": "\ue769 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
-          "foreground": "#3a3c5b",
-          "type": "perl"
-        },
-        {
-          "style": "plain",
-          "template": "\ue73d {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
-          "foreground": "#777bb3",
-          "type": "php"
+          "type": "node",
+          "style": "plain"
         },
         {
           "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue71e {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "foreground": "#cb3837",
+          "type": "npm",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue753 {{ if .Error }}{{ if eq .Error \"cannot get version\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "foreground": "#002f56",
+          "type": "nx",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue769 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "foreground": "#3a3c5b",
+          "type": "perl",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\ue73d {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
+          "foreground": "#777bb3",
+          "type": "php",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
             "display_mode": "context"
           },
-          "style": "plain",
           "template": "\ue235 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#3773a5",
-          "type": "python"
+          "type": "python",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "R {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#2369bd",
-          "type": "r"
+          "type": "r",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue791 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#ab1401",
-          "type": "ruby"
+          "type": "ruby",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue7a8 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#f74c00",
-          "type": "rust"
+          "type": "rust",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue755 {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#f36537",
-          "type": "swift"
+          "type": "swift",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "{{.WorkspaceName}}{{ if .Version }} {{ .Version }}{{ end }} ",
           "foreground": "#5f42e8",
-          "type": "terraform"
+          "type": "terraform",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "V {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#6b5c8e",
-          "type": "vala"
+          "type": "vala",
+          "style": "plain"
         },
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "\ue620 make {{ if .Error }}{{ if eq .Error \"NO VERSION\" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}",
           "foreground": "#42b983",
-          "type": "xmake"
+          "type": "xmake",
+          "style": "plain"
         }
       ],
       "newline": true
@@ -296,13 +397,14 @@
         {
           "properties": {
             "branch_icon": "\ue725 ",
+            "cache_duration": "none",
             "fetch_status": true,
             "fetch_upstream_icon": true
           },
-          "style": "plain",
           "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#f38ba8> \uf046 {{ .Staging.String }}</>{{ end }} ",
           "foreground": "#a6e3a1",
           "type": "git",
+          "style": "plain",
           "foreground_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#f9e2af{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f5c2e7{{ end }}",
@@ -318,10 +420,13 @@
       "alignment": "left",
       "segments": [
         {
-          "style": "plain",
+          "properties": {
+            "cache_duration": "none"
+          },
           "template": "{{ if .SSHSession }}\ueba9 {{ end }}\uf007 {{ .UserName }} \uf109 {{ .HostName }}",
           "foreground": "#a6e3a1",
-          "type": "session"
+          "type": "session",
+          "style": "plain"
         }
       ],
       "newline": true
@@ -332,29 +437,34 @@
       "segments": [
         {
           "properties": {
+            "cache_duration": "none",
             "linux": "\ue712",
             "macos": "\ue711",
             "windows": "\ue70f"
           },
-          "style": "plain",
           "template": "{{.Icon}} ",
           "foreground": "#cba6f7",
-          "type": "os"
-        },
-        {
-          "style": "plain",
-          "template": "\uf292 ",
-          "foreground": "#fab387",
-          "type": "root"
+          "type": "os",
+          "style": "plain"
         },
         {
           "properties": {
-            "always_enabled": true
+            "cache_duration": "none"
           },
-          "style": "plain",
+          "template": "\uf292 ",
+          "foreground": "#fab387",
+          "type": "root",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
           "template": "\uf054 ",
           "foreground": "#a6e3a1",
           "type": "exit",
+          "style": "plain",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#f38ba8{{ end }}"
           ]
