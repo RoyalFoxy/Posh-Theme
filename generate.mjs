@@ -8,32 +8,33 @@ const $schema =
 const defaultTemplate = `{{ if .Error }}{{ if eq .Error "NO VERSION" }}N/A{{ else }}{{ .Error }}{{ end }} {{ else }}{{ if .Full }}<b>{{ .Full }}</b> {{ end }}{{ end }}`;
 
 const colors = {
-  rosewater: "#f5e0dc",
-  flamingo: "#f2cdcd",
-  pink: "#f5c2e7",
-  mauve: "#cba6f7",
-  red: "#f38ba8",
-  maroon: "#eba0ac",
-  peach: "#fab387",
-  yellow: "#f9e2af",
-  green: "#a6e3a1",
-  teal: "#94e2d5",
-  sky: "#89dceb",
-  sapphire: "#74c7ec",
-  blue: "#89b4fa",
-  lavender: "#b4befe",
-  text: "#cdd6f4",
-  subtext1: "#bac2de",
-  subtext0: "#a6adc8",
-  overlay2: "#9399b2",
-  overlay1: "#7f849c",
-  overlay0: "#6c7086",
-  surface2: "#585b70",
-  surface1: "#45475a",
-  surface0: "#313244",
-  base: "#1e1e2e",
-  mantle: "#181825",
-  crust: "#11111b",
+  text: "#9f9fa9",
+  subtext1: "#8f8f99",
+  subtext0: "#808089",
+  overlay2: "#717179",
+  overlay1: "#62626a",
+  overlay0: "#54545b",
+  surface2: "#46464c",
+  surface1: "#39393e",
+  surface0: "#2c2c30",
+  base: "#202023",
+  mantle: "#141417",
+  crust: "#09090b",
+  rosewater: "#f43f5e",
+  flamingo: "#ff637e",
+  pink: "#f472b6",
+  mauve: "#c084fc",
+  red: "#ef4444",
+  maroon: "#f87171",
+  peach: "#f59e0b",
+  yellow: "#facc15",
+  green: "#a3e635",
+  teal: "#2dd4bf",
+  sky: "#06b6d4",
+  sapphire: "#38bdf8",
+  blue: "#60a5fa",
+  lavender: "#818cf8",
+
   angular: "#dd0031",
   aws: "#f79919",
   azure: "#0072c6",
@@ -82,7 +83,7 @@ const blocks = [
       },
       {
         foreground: "$PEACH;",
-        properties: {
+        options: {
           folder_icon: "",
           home_icon: "",
           style: "agnoster_full",
@@ -92,7 +93,7 @@ const blocks = [
       },
       {
         foreground_templates: ["{{ if gt .Code 0 }}$RED;{{ end }}"],
-        properties: {
+        options: {
           always_enabled: false,
         },
         template: "{{ if gt .Code 0 }}<b>{{ .Code }}</b>{{ end }}",
@@ -225,7 +226,7 @@ const blocks = [
       },
       {
         foreground: "$KUBECTL;",
-        properties: {
+        options: {
           parse_kubeconfig: true,
         },
         template: "󱃾 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
@@ -238,7 +239,7 @@ const blocks = [
       },
       {
         foreground: "$NODE;",
-        properties: {
+        options: {
           fetch_package_manager: true,
           npm_icon: "<$NPM;></> ",
           yarn_icon: "<$YARN;></> ",
@@ -270,7 +271,7 @@ const blocks = [
       },
       {
         foreground: "$PYTHON;",
-        properties: {
+        options: {
           display_mode: "context",
         },
         icon: "",
@@ -324,13 +325,13 @@ const blocks = [
           "{{ if gt .Ahead 0 }}$SURFACE2;{{ end }}",
           "{{ if gt .Behind 0 }}$SURFACE2;{{ end }}",
         ],
-        properties: {
+        options: {
           branch_icon: " ",
           fetch_status: true,
           fetch_upstream_icon: true,
         },
         template:
-          "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<$RED;>  {{ .Staging.String }}</>{{ end }} ",
+          "{{ .UpstreamIcon }} {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<$RED;>  {{ .Staging.String }}</>{{ end }} ",
         type: "git",
       },
     ],
@@ -339,16 +340,17 @@ const blocks = [
     segments: [
       {
         foreground: "$GREEN;",
-        template: "{{ if .SSHSession }}\ueba9 {{ end }}\uf007 {{ .UserName }} \uf109 {{ .HostName }}",
-        type: "session"
-      }
+        template:
+          "{{ if .SSHSession }}\ueba9 {{ end }}\uf007 {{ .UserName }} \uf109 {{ .HostName }}",
+        type: "session",
+      },
     ],
   },
   {
     segments: [
       {
         foreground: "$MAUVE;",
-        properties: {
+        options: {
           linux: "",
           macos: "",
           windows: "",
@@ -364,7 +366,7 @@ const blocks = [
       {
         foreground: "$GREEN;",
         foreground_templates: ["{{ if gt .Code 0 }}$RED;{{ end }}"],
-        properties: {
+        options: {
           always_enabled: true,
         },
         template: " ",
@@ -412,7 +414,7 @@ function generateSegment({
   style = "plain",
   template = null,
   type = null,
-  properties = undefined,
+  options = undefined,
   foreground = undefined,
   foreground_templates = undefined,
   background = undefined,
@@ -425,7 +427,7 @@ function generateSegment({
   return {
     style,
     template: template || `${icon} ${defaultTemplate}`,
-    properties,
+    options,
     foreground,
     foreground_templates,
     background,
